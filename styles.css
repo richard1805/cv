@@ -3,50 +3,205 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
 }
+
 h1 {
   color: #0f4c75;
-  font-size: 5.625rem;
-  margin-top: 0;
+  text-align: center;
+  font-size: 4.625rem;
+  margin: 50px auto 0 auto;
   margin-bottom: 0;
-  font-family: 'Allura', cursive;
-font-family: 'Tangerine', cursive;
+  font-family: 'Tangerine', cursive;
+  width: 50%;
 }
+
 h2 {
   color: #0f4c75;
+  text-align: center;
+  margin: 40px auto;
   font-family: 'Montserrat', sans-serif;
 }
+
 h3 {
   color: #0f4c75;
+  text-align: center;
+  margin: 40px auto;
   font-family: 'Montserrat', sans-serif;
 }
+
+h4 {
+  color: #3CA1DF;
+  text-align: center;
+  margin: 40px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
 p {
   line-height: 2;
+  width: 50%;
+  margin: auto;
+  font-weight: bold;
 }
+
+ul {
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 10px;
+}
+
+a:hover {
+  color: white;
+}
+
+
+
 #overlay {
-  background-color: #00bcd4;
-  padding-top: 100px;
+  background-color: #37CBDE;
   height: 100%;
+  padding-top: 100px;
 }
+
 #middle-container {
-background-color: #b2ebf2;
-padding-top: 50px;
+  background-color: #b2ebf2;
+  padding-top: 100px;
 }
+
 #bottom-container {
-background-color: #b2ebf2;
+  background-color: #00bcd4;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+#personal {
+  color: #0f4c75;
+  font-size: 5.625rem;
+  font-family: 'Allura', cursive;
+  font-family: 'Tangerine', cursive;
+}
+
+.mountain {
+  max-width: 100%;
+  height: auto;
+}
+
 .bottom-cloud {
   position: absolute;
 }
+
 .top-cloud {
   position: relative;
   margin-top: 50px;
   margin-left: 30%;
 }
-.Skill {
-  height: 210px;
-  width: 210px;
+
+.profile {
+  margin-bottom: 50px;
 }
-.light {
-  height: 210px;
-  width: 210px;
+
+.bio-header {
+  width: 50%;
+  margin: auto;
+}
+
+.bio1 {
+  float: left;
+  margin-right: 70px;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.bio2 {
+  float: right;
+  margin-left: 70px;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.bio3 {
+  float: left;
+  margin-right: 70px;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.form {
+  margin: 40px auto;
+}
+
+.p1 {
+  margin: 0 auto 30px auto;
+}
+
+.contact-me {
+  padding: 50px auto;
+  margin: 30px auto;
+}
+
+.education {
+  max-width: 100%;
+  height: auto;
+}
+
+.edu-main {
+  margin: 50px auto;
+}
+
+.skill {
+  margin: auto;
+  width: 60%;
+  }
+
+.navbar {
+  background-color: #00bcd4;
+}
+
+.row {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.carousel-item {
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item::before{
+  content: "";
+  display: block;
+  positon: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #ffff;
+  opacity: 0.7;
+}
+
+.carousel-caption {
+  botton: 180px;
+  padding left: 100px;
+}
+
+.card-title {
+  color: white;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.card {
+  background-color: #00bcd4;
+  margin: 10px auto;
 }
